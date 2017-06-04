@@ -1,10 +1,10 @@
-import { Ayatk.ComPage } from './app.po';
+import { AyatkPage } from './app.po';
 
 describe('ayatk.com App', () => {
-  let page: Ayatk.ComPage;
+  let page: AyatkPage;
 
   beforeEach(() => {
-    page = new Ayatk.ComPage();
+    page = new AyatkPage();
   });
 
   it('should display message saying app works', () => {
