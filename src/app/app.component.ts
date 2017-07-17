@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
+
 export class AppComponent {
-  title = 'app works!';
+  title = '(´・ω・｀)やあ';
+  message = '以下のリンクのどれかを選ぶとええぞ…';
+  links = [
+    { name: 'Twitter', url: 'https://twitter.com/AyaTokikaze' },
+    { name: 'GitHub', url: 'https://github.com/ayatk' },
+    { name: 'Mastodon (ぱおぱお)', url: 'https://pawoo.net/@ayatk' },
+    { name: 'Blog', url: 'http://ayatk.hatenablog.com' },
+  ];
 }
