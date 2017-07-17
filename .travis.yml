@@ -20,7 +20,6 @@ before_script:
   - npm install -g @angular/cli
   - git clone --quiet -b gh-pages https://github.com/ayatk/ayatk.com.git build
   - pushd build
-  - git remote add github "https://$GH_TOKEN@github.com/ayatk/ayatk.com.git"
   - git checkout gh-pages
   - popd
 
@@ -32,7 +31,7 @@ after_success:
   - cd build
   - git add -A
   - git commit -m "build at ${rev}"
-  - git push --quiet github gh-pages
+  - git push --quiet "https://$GH_TOKEN@github.com/ayatk/ayatk.com.git" gh-pages >/dev/null 2>&1
 
 notifications:
   email: never
