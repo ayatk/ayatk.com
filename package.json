@@ -1,11 +1,17 @@
 {
   "name": "ayatk.com",
   "version": "0.0.0",
-  "license": "MIT",
+  "private": true,
   "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "dependencies": {
+    "riot": "^3.9.1",
+    "siimple": "^3.1.0-beta"
   },
   "devDependencies": {
+    "parcel-bundler": "^1.7.0",
+    "parcel-plugin-riotjs": "^0.0.1"
   }
 }
