@@ -7,6 +7,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "material-design-icons": "^3.0.1",
     "riot": "^3.9.1",
     "siimple": "^3.1.0-beta"
   },
