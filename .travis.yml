@@ -3,9 +3,6 @@ language: node_js
 node_js:
   - "9"
 cache: yarn
-env:
-  global:
-    - secure: "RWfYTRXQEt+UL83RY76PDVfzWfJELJxE8MHhfqViOn0jLwdOmmDX2XhmHqBpwMr9ndyrGuc3og7jpTLbtoDVg1nrf3Wd9pAvoYwxsxDIiJherpwPyGBHKMGULadatdBdikQ2j/09Z3RGQ3p7wD1bxBn8AIcDuR4/4GFzAVc8wDW4tqy/dt7O8hIRHv3Isb+utsbymMZpvcmpdPDbXOPZeeSs0GO5FuQV0G3nuSl0716nJGffeeo9ReGdWwQPN67J4WdMra9JdbR/9XrtGnernJqWHA2nfuZ/QmEzn0b/B5q+uWpmnQCrv8vl9E9RtIhi+5YpLQUq3/mUH2gs8DtYIV7mvI14xGkpMlj9wrzbBrhNg1bfvolj2J/bOMPLzTuuM+ucSzo4b0T1QnHWvGuwVvScO7Bm6rJEg92odIcG4p7RXzOHGd5Xc1dEL8B1yWn59cTNQddq+lTnp450S7oJ64Z8zZnaKNt1NXBzYANkZyEBsoe3kB2u23bcr13pOfy3AlBtCctDQSAJBg4v4B+qLuOxdiP4IAuuI1bT8q4dqBbBkQqTnb0e+374TU2efcc+9vwKPm3VnNvkc04kk9eBveDCWqtO3v+WXNLD7uYFAbv66ujABR9G10o9ht247NyjaZ54wm/dTHSnmGH5vEB9Bv6jYFcXFUpJIpJkeiXmM2U="
 script:
   - yarn build
 deploy:
