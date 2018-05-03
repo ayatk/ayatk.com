@@ -3422,9 +3422,20 @@ riot-tmpl@^3.0.8:
   dependencies:
     eslint-config-riot "^1.0.0"
 
-riot@^3.0.0, riot@^3.9.1:
+riot@^3.0.0:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/riot/-/riot-3.9.1.tgz#085abc4a61e6408905bdb9dfd4e4967228962590"
+  dependencies:
+    riot-cli "^4.0.1"
+    riot-compiler "^3.4.0"
+    riot-observable "^3.0.0"
+    riot-tmpl "^3.0.8"
+    simple-dom "1.4.0-alpha.82914663"
+    simple-html-tokenizer "^0.5.0"
+
+riot@^3.9.4:
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/riot/-/riot-3.9.4.tgz#75f6bddcae8a86ffa54dd5c6046bdf4bfbdc8be9"
   dependencies:
     riot-cli "^4.0.1"
     riot-compiler "^3.4.0"
