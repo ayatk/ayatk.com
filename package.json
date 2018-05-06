@@ -9,10 +9,11 @@
   "dependencies": {
     "material-design-icons": "^3.0.1",
     "milligram": "^1.3.0",
-    "riot": "^3.9.4"
+    "riot": "^3.9.5"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.7.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
     "parcel-plugin-riotjs": "^0.0.1"
   }
 }
