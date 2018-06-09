@@ -3082,7 +3082,7 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-parcel-bundler@^1.8.1:
+parcel-bundler@^1.0.0, parcel-bundler@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.8.1.tgz#ac62d0690786f51d7f309694bab6856f685a6986"
   dependencies:
@@ -3136,6 +3136,14 @@ parcel-bundler@^1.8.1:
     uglify-es "^3.2.1"
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
+
+parcel-plugin-riotjs@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-riotjs/-/parcel-plugin-riotjs-0.0.1.tgz#bd94dc9b9bee7331c6e413e3ba00524924d68793"
+  dependencies:
+    parcel-bundler "^1.0.0"
+    riot "^3.0.0"
+    riot-compiler "^3.0.0"
 
 parse-asn1@^5.0.0:
   version "5.1.1"
@@ -3817,7 +3825,7 @@ riot-cli@^4.0.1:
     riot-compiler "^3.4.0"
     rollup "^0.52.1"
 
-riot-compiler@^3.4.0:
+riot-compiler@^3.0.0, riot-compiler@^3.4.0:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/riot-compiler/-/riot-compiler-3.5.1.tgz#ab4abb861fdb630765de6685091f967061de49df"
   dependencies:
@@ -3835,7 +3843,7 @@ riot-tmpl@^3.0.8:
   dependencies:
     eslint-config-riot "^1.0.0"
 
-riot@^3.10.1:
+riot@^3.0.0, riot@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/riot/-/riot-3.10.1.tgz#a0890c20deb190ea40f9743236a8923d00323be7"
   dependencies:

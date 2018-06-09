@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.9.0",
-    "parcel-bundler": "^1.8.1"
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-riotjs": "^0.0.1"
   }
 }
