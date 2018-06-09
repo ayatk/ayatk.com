@@ -1,3 +1,5 @@
+<!-- vim: set filetype=html: -->
+
 <links>
   <ul>
     <li each={ links }>

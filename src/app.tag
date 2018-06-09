@@ -1,3 +1,5 @@
+<!-- vim: set filetype=html: -->
+
 <app>
   <div class="wrapper">
     <div class="container">
