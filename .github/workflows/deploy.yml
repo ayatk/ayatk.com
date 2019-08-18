@@ -20,7 +20,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git remote set-url origin https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
-        EMAIL=$(cat ${GITHUB_EVENT_PATH} | jq -r '.commits[0].author.email') && git config --global user.email "${ENAME}"
-        NAME=$(cat ${GITHUB_EVENT_PATH} | jq -r '.commits[0].author.name')  && git config --global user.name "${MAIL}"
+        EMAIL=$(cat ${GITHUB_EVENT_PATH} | jq -r '.commits[0].author.email') && git config --global user.email "${EMAIL}"
+        NAME=$(cat ${GITHUB_EVENT_PATH} | jq -r '.commits[0].author.name')  && git config --global user.name "${NAME}"
     - name: deploy github pages
       run: npx gh-pages -d dist -t
