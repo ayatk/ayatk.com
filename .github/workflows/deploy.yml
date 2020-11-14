@@ -24,5 +24,5 @@ jobs:
         NAME=$(cat ${GITHUB_EVENT_PATH} | jq -r '.commits[0].author.name')  && git config --global user.name "${NAME}"
     - name: deploy github pages
       run: |
-        cp CNAME dist/CNAME
-        npx gh-pages -d dist -t -m "Build at $(date +'%Y-%m-%dT%H:%M:%S')"
+        cp CNAME build/CNAME
+        npx gh-pages -d build -t -m "Build at $(date +'%Y-%m-%dT%H:%M:%S')"
