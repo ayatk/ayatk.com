@@ -38,7 +38,7 @@ jobs:
           yarn
           yarn build
       - name: cname
-        run: cp CNAME build/CNAME
+        run: cp CNAME out/CNAME
       - name: Setup Pages
         uses: actions/configure-pages@v1
       - name: Upload artifact
