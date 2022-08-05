@@ -9,9 +9,9 @@ const Links = () => {
   ]
 
   return (
-    <ul>
+    <ul className="list-circle">
       {links.map((link) => (
-        <li key={`${link.name}`}>
+        <li className="mb-2" key={`${link.name}`}>
           <a href={link.url}>{link.name}</a>
         </li>
       ))}
